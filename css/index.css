@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+#wrap {
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+#header .login {
+    float: right;
+}
+
+#header .login li {
+    float: left;
+    margin: 10px 20px 0 0;
+}
+
+#header a {
+    font-size: 16px;
+    color: #000;
+}
+
+#header_in {
+    margin: 0 auto;
+    width: 1200px;
+    height: 150px;
+}
+
+#header_in .logo {
+    margin: 0 auto;
+    width: 560px;
+    height: 100px;
+    text-align: center;
+}
+
+#header_in .logo p {
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-size: 27px;
+    font-weight: 900;
+    color: black;
+}
+
+#header_in .logo span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+}
+
+#header_in .nav {
+    width: 1200px;
+    height: 70px;
+}
+
+#header_in .nav ul {}
+
+#header_in .nav li {
+    float: left;
+    padding: 15px 100px 0 0;
+}
+
+#header_in .nav li:first-child {
+    margin-left: 315px;
+}
+
+#header_in .nav li a {
+    font-size: 16px;
+    color: black;
+}
+
+
+
+
+
+
+
+/* main */
+#main {
+    width: 100%;
+    height: 650px;
+    background-color: chartreuse;
+}
+
+#main img {
+    width: 100%;
+    height: 650px;
+}
+
+
+
+
+
+
+
+
+
+
+/* contents */
+#contents {
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+}
+
+#con_in {
+    margin: 0 auto;
+    width: 1200px;
+    height: 100vh;
+    background-color: cornsilk;
+}
+
+#con_in .menu {
+    width: 600px;
+    height: 400px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+#con_in .menu p {
+    margin: 0 auto;
+    padding: 80px 0 0 100px;
+    box-sizing: border-box;
+}
+
+#con_in .menu span {}
+
+#con_in .menu hr {
+    width: 150px;
+    margin: 90px 0 0 100px;
+}
+
+#con_in .button {
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+}
+
+#con_in .menu_img {
+    float: right;
+    width: 600px;
+    height: 400px;
+    margin-top: 1px;
+    background-color: violet;
+}
+
+#con_in .menu_img li {
+    margin-top: 20px;
+}
+
+#con_in .menu_img img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 5px 100px;
+}
+
+#con_in .menu_img .img2 {
+    margin: 5px 200px;
+}
+
+
+
+
+
+
+
+
+
+
+/* sns */
+#sns {
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+/* franchise */
+#franchise {
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+/* footer */
+#footer {
+    width: 100%;
+    height: 300px;
+    background-color: #666;
+}

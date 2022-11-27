@@ -136,9 +136,9 @@ a {
 #con_in .menu {
     width: 600px;
     height: 400px;
-    padding-top: 30px;
+    padding-top: 20px;
     box-sizing: border-box;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 
 #con_in .menu p {
@@ -166,11 +166,11 @@ a {
     width: 600px;
     height: 400px;
     margin-top: 1px;
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 #con_in .menu_img li {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 #con_in .menu_img img {
@@ -198,6 +198,62 @@ a {
     height: 100vh;
     background-color: skyblue;
 }
+
+#sns .sns_btn {
+    float: right;
+    width: 300px;
+    height: 50px;
+    background-color: aliceblue;
+}
+
+#sns .sns_btn ul {}
+
+#sns .sns_btn li {
+    float: left;
+    margin-right: 20px;
+}
+
+#sns .sns_btn img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#sns h2 {
+    font-size: 50px;
+}
+
+#sns .sns_group {
+    width: 100%;
+    height: auto;
+}
+
+#sns .sns_group .sns_h {}
+
+#sns .sns_group .sns_h li {
+    float: left;
+    margin-right: 30px;
+}
+
+#sns .sns_group .sns_h img {
+    width: 300px;
+    height: 300px;
+}
+
+#sns .sns_group .sns_b {}
+
+#sns .sns_group .sns_b li {
+    float: left;
+    margin-right: 30px;
+}
+
+#sns .sns_group .sns_b img {
+    width: 300px;
+    height: 300px;
+}
+
+
+
 
 
 

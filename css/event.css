@@ -88,39 +88,25 @@
     color: black;
 }
 
-
-
-
-
-
-
-
-
-/* main */
-#main {
-    width: 100%;
-    /* height: 650px; */
-    position: relative;
-}
-
-#main .navbar {
+#header .navbar {
     position: absolute;
+    top: 150px;
     width: 100%;
     height: 200px;
     background-color: aliceblue;
     display: flex;
     justify-content: center;
-    display: none;
+    z-index: 9999;
 }
 
-#main .nav_btn {
+#header .nav_btn {
     width: 1200px;
     height: 200px;
     display: flex;
     justify-content: space-between;
 }
 
-#main .nav_btn ul {
+#header .nav_btn ul {
     float: left;
     margin: 0 auto;
     width: 200px;
@@ -129,12 +115,13 @@
     box-sizing: border-box;
 }
 
-#main .nav_btn li {
+#header .nav_btn li {
     padding-left: 70px;
+    box-sizing: border-box;
     line-height: 30px;
 }
 
-#main .nav_btn a {
+#header .nav_btn a {
     font-size: 16px;
     font-weight: 600;
     color: #666;

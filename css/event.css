@@ -1,0 +1,303 @@
+#wrap {
+    width: 100%;
+    height: auto;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+}
+
+/* #header .logo {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+#header .logo a {}
+
+#header .logo img {
+    width: 100px;
+} */
+
+#header .login {
+    float: right;
+}
+
+#header .login li {
+    float: left;
+    margin: 10px 20px 0 0;
+}
+
+#header a {
+    font-size: 16px;
+    color: #000;
+}
+
+#header_in {
+    margin: 0 auto;
+    width: 1200px;
+    height: 150px;
+}
+
+#header_in .twosome {
+    margin: 0 auto;
+    width: 560px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+}
+
+#header_in .twosome p {
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-size: 27px;
+    font-weight: 900;
+    color: black;
+}
+
+#header_in .twosome span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+}
+
+#header_in .nav {
+    width: 1200px;
+    height: 50px;
+}
+
+#header_in .nav ul {
+    width: 100%;
+    height: 50px;
+}
+
+#header_in .nav li {
+    float: left;
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+#header_in .nav li a {
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/* main */
+#main {
+    width: 100%;
+    /* height: 650px; */
+    position: relative;
+}
+
+#main .navbar {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+#main .nav_btn {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main .nav_btn ul {
+    float: left;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#main .nav_btn li {
+    padding-left: 70px;
+    line-height: 30px;
+}
+
+#main .nav_btn a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+}
+
+
+
+
+
+
+
+/* 콘텐츠 */
+#contents {
+    width: 100%;
+    height: auto;
+}
+
+#contents_in {
+    margin: 0 auto;
+    width: 1400px;
+    height: auto;
+}
+
+#contents_in p {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 50px 0 30px 20px;
+}
+
+#contents_in .summer {
+    font-size: 18px;
+    color: #000;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#contents_in .summer span {
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #666;
+}
+
+#contents_in .promotions {
+    margin-top: 100px;
+}
+
+#contents_in .promotions img {
+    width: 100%;
+}
+
+#contents_in .promotions_btn {
+    margin: 30px 0 30px 1300px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #666;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+
+
+
+
+
+
+
+
+
+/* 하단 */
+#footer {
+    width: 100%;
+    height: 300px;
+    background-color: #666;
+}
+
+#footer .footer_top {
+    margin: 0 auto;
+    width: 1200px;
+    height: 150px;
+}
+
+#footer .address {
+    float: right;
+    line-height: 25px;
+    padding: 10px 30px 0 0;
+    box-sizing: border-box;
+}
+
+#footer .address li {
+    font-size: 14px;
+    color: #fff;
+}
+
+#footer .footer_l {
+    padding: 10px 0 0 20px;
+    box-sizing: border-box;
+    line-height: 40px;
+}
+
+#footer .footer_l li {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#footer .footer_line {
+    margin: 0 auto;
+    width: 1200px;
+    border: 1px solid #fff;
+}
+
+#footer .footer_btm {
+    margin: 0 auto;
+    width: 1200px;
+    height: 150px;
+}
+
+#footer .footer_btn {}
+
+#footer .footer_btn li {
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin: 20px 70px 0 0;
+}
+
+#footer .footer_btn li:first-child {
+    margin-left: 30px;
+}
+
+#footer .footer_btn li:nth-child(2) {
+    color: red;
+}
+
+#footer .footer_sns {
+    float: right;
+    width: 120px;
+    height: 30px;
+    margin: 75px 40px 0 0;
+}
+
+#footer .footer_sns li {
+    float: left;
+}
+
+#footer .footer_sns li a {
+    margin-right: 10px;
+}
+
+#footer .footer_sns img {
+    width: 30px;
+    height: 30px;
+}
+
+#footer .footer_btm p {
+    font-size: 12px;
+    color: #fff;
+    line-height: 15px;
+    padding-top: 90px;
+    box-sizing: border-box;
+}

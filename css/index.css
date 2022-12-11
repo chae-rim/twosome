@@ -1,27 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-ul,
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-
-
-
-
-
-
-
 #wrap {
     width: 100%;
+    height: auto;
 }
 
 #header {
@@ -86,22 +65,26 @@ a {
 
 #header_in .nav {
     width: 1200px;
-    height: 70px;
+    height: 50px;
 }
 
-#header_in .nav ul {}
+#header_in .nav ul {
+    width: 100%;
+    height: 50px;
+}
 
 #header_in .nav li {
     float: left;
-    padding: 15px 100px 0 0;
-}
-
-#header_in .nav li:first-child {
-    margin-left: 315px;
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
 }
 
 #header_in .nav li a {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 900;
     color: black;
 }
 
@@ -119,9 +102,9 @@ a {
 
 /* main */
 #main {
-    display: inline-block;
     width: 100%;
     height: 650px;
+    position: relative;
 }
 
 #main img {
@@ -130,23 +113,48 @@ a {
 }
 
 #main .navbar {
+    position: absolute;
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+
 }
 
-#main .navbar ul {
+#main .nav_btn {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main .nav_btn ul {
     float: left;
+    margin: 0 auto;
     width: 200px;
-    height: 250px;
-    background-color: bisque;
+    height: 200px;
+    padding-top: 20px;
+    box-sizing: border-box;
 }
 
-#main .navbar li {}
+#main .nav_btn li {
+    padding-left: 70px;
+    box-sizing: border-box;
+    line-height: 30px;
+}
 
-#main .navbar a {}
+#main .nav_btn a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+}
 
-s
+
+
+
+
+
 
 /* contents */
 #contents {
@@ -409,7 +417,7 @@ s
 /* footer */
 #footer {
     width: 100%;
-    height: 350px;
+    height: 300px;
     background-color: #666;
 }
 
@@ -452,7 +460,7 @@ s
 #footer .footer_btm {
     margin: 0 auto;
     width: 1200px;
-    height: 200px;
+    height: 150px;
 }
 
 #footer .footer_btn {}
@@ -477,7 +485,7 @@ s
     float: right;
     width: 120px;
     height: 30px;
-    margin: 110px 40px 0 0;
+    margin: 75px 40px 0 0;
 }
 
 #footer .footer_sns li {
@@ -496,6 +504,436 @@ s
 #footer .footer_btm p {
     font-size: 12px;
     color: #fff;
-    padding: 130px 0 0 30px;
+    line-height: 15px;
+    padding-top: 90px;
     box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+/* 1500 */
+@media screen and (max-width:1500px) {
+    #header_in {
+        width: 95%;
+        background-color: aquamarine;
+    }
+
+    #header_in .nav {
+        margin: 0 auto;
+    }
+
+
+
+
+
+    #main {
+        width: 100%;
+        position: relative;
+    }
+
+
+    #main .navbar {
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+
+    #main .nav_btn {
+        width: 80%;
+    }
+
+
+
+
+
+
+    #sns .sns_btn {
+        margin-right: 0;
+    }
+
+    #sns .sns_btn img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #sns .sns_group .sns_h {
+        padding: 80px 0 0 80px;
+        box-sizing: border-box;
+    }
+
+    #sns .sns_group .sns_h img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #sns .sns_group .sns_b {
+        padding: 30px 0 0 80px;
+        box-sizing: border-box;
+    }
+
+    #sns .sns_group .sns_b img {
+        width: 300px;
+        height: 300px;
+    }
+
+
+
+
+
+    #franchise .franchise_l {
+        padding: 50px 0 0 100px;
+        box-sizing: border-box;
+    }
+
+    #franchise .franchise_r li {
+        margin-right: 80px;
+    }
+
+    #franchise .btn {
+        margin-right: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+/* 1200 */
+@media screen and (max-width:1200px) {
+    #header_in {
+        width: 95%;
+        background-color: pink;
+    }
+
+    #header_in .nav {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    #header_in .nav li {
+        width: 200px;
+    }
+
+
+
+
+    #main {
+        width: 100%;
+        position: relative;
+    }
+
+
+    #main .navbar {
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+
+    #main .nav_btn {
+        width: 85%;
+    }
+
+    #main .nav_btn ul {
+        width: 150px;
+    }
+
+    #main .nav_btn li {
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
+
+
+
+
+
+    #sns .sns_btn {
+        margin-right: 0;
+    }
+
+    #sns .sns_btn img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #sns h2 {
+        padding-top: 80px;
+        box-sizing: border-box;
+    }
+
+    #sns .sns_group .sns_h {
+        padding: 100px 0 0 70px;
+        box-sizing: border-box;
+    }
+
+    #sns .sns_group .sns_h img {
+        width: 230px;
+        height: 230px;
+    }
+
+    #sns .sns_group .sns_b {
+        padding: 30px 0 0 70px;
+        box-sizing: border-box;
+    }
+
+    #sns .sns_group .sns_b img {
+        width: 230px;
+        height: 230px;
+    }
+
+
+
+
+
+    #franchise .franchise_l {
+        padding: 50px 0 0 70px;
+        box-sizing: border-box;
+    }
+
+    #franchise .franchise_l li img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #franchise .franchise_l .dt {
+        margin: 170px 0 0 -100px;
+    }
+
+    #franchise .franchise_l .dt img {
+        width: 180px;
+        height: 180px;
+    }
+
+    #franchise .franchise_r li {
+        margin-right: 50px;
+    }
+
+    #franchise .franchise_r li img {
+        width: 300px;
+        height: 200px;
+    }
+
+    #franchise .btn {
+        width: 700px;
+        margin-right: 40px;
+        padding: 0;
+    }
+
+    #franchise .btn ul {
+        right: 60px;
+    }
+
+    #franchise .btn li {
+        margin-right: 150px;
+    }
+
+
+
+
+
+
+    #footer .footer_top {
+        width: 90%;
+    }
+
+    #footer .footer_btm {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* 1000 */
+@media screen and (max-width:1000px) {
+    #header_in {
+        width: 100%;
+        background-color: rgb(184, 255, 184);
+    }
+
+    #header_in .nav {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    #header_in .nav ul {
+        margin-left: 15px;
+    }
+
+    #header_in .nav li {
+        width: 180px;
+        background-color: #fff;
+    }
+
+
+
+
+    #main {
+        width: 100%;
+        position: relative;
+    }
+
+
+    #main .navbar {
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+
+    #main .nav_btn {
+        width: 90%;
+    }
+
+    #main .nav_btn ul {
+        width: 150px;
+    }
+
+    #main .nav_btn li {
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
+
+
+
+
+
+
+
+    #con_in {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+    #sns .sns_btn {
+        margin-right: -100px;
+    }
+
+    #sns .sns_btn img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #sns h2 {
+        padding-top: 80px;
+        box-sizing: border-box;
+    }
+
+    #sns .sns_group .sns_h {
+        padding: 100px 0 0 50px;
+        box-sizing: border-box;
+    }
+
+    #sns .sns_group .sns_h img {
+        width: 190px;
+        height: 190px;
+    }
+
+    #sns .sns_group .sns_b {
+        padding: 30px 0 0 50px;
+        box-sizing: border-box;
+    }
+
+    #sns .sns_group .sns_b img {
+        width: 190px;
+        height: 190px;
+    }
+
+
+
+
+
+    #franchise .franchise_l {
+        padding: 50px 0 0 30px;
+        box-sizing: border-box;
+    }
+
+    #franchise .franchise_l li img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #franchise .franchise_l .dt {
+        margin: 170px 0 0 -100px;
+    }
+
+    #franchise .franchise_l .dt img {
+        width: 180px;
+        height: 180px;
+    }
+
+    #franchise .franchise_r li {
+        margin-right: 30px;
+    }
+
+    #franchise .franchise_r li img {
+        width: 250px;
+        height: 200px;
+    }
+
+    #franchise .btn {
+        width: 500px;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    #franchise .btn ul {
+        width: 500px;
+    }
+
+    #franchise .btn li {
+        margin: 0 160px 0 40px;
+    }
+
+    #franchise .btn button {
+        padding: 10px 30px;
+        box-sizing: border-box;
+    }
+
+
+
+
+
+    #footer .footer_top {
+        width: 90%;
+    }
+
+    #footer .footer_btm {
+        width: 90%;
+    }
+
+    #footer .address li {
+        font-size: 1.2vw;
+    }
+
+    #footer .footer_l li {
+        font-size: 1.2vw;
+    }
+
+    #footer .footer_btn li {
+        font-size: 1.2vw;
+        margin: 20px 50px 0 0;
+    }
+
+    #footer .footer_btm p {
+        font-size: 1vw;
+    }
 }

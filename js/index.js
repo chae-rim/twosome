@@ -3,13 +3,9 @@
 $(document).ready(function () {
     $('#header .navbar').hide();
     $('.nav li').click(function () {
-        $('#header .navbar').toggle();
+        $('#header .navbar').slideToggle(500);
     });
 })
-
-
-
-
 
 
 
@@ -54,11 +50,3 @@ $(document).ready(function () {
 
 
 
-
-//시그니처
-$(document).ready(function () {
-    $('#contents .menu_img');
-    $('.menu_img li').click(function () {
-        $('#contents .menu_img').toggle();
-    });
-})

@@ -632,7 +632,6 @@
 
     #header_in {
         width: 100%;
-        background-color: aquamarine;
     }
 
     #header_in .nav {
@@ -712,7 +711,6 @@
 @media screen and (max-width:1200px) {
     #header_in {
         width: 100%;
-        background-color: pink;
     }
 
     #header_in .nav {
@@ -861,7 +859,6 @@
 @media screen and (max-width:1000px) {
     #header_in {
         width: 100%;
-        background-color: rgb(184, 255, 184);
     }
 
     #header_in .nav {

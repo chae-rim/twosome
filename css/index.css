@@ -6,6 +6,7 @@
 #header {
     width: 100%;
     height: 150px;
+    background-color: #fff;
 }
 
 #header .login {
@@ -301,6 +302,7 @@
 #sns {
     width: 100%;
     height: 950px;
+    background-color: #fff;
 }
 
 #sns .sns_btn {
